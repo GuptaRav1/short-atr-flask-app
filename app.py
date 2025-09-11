@@ -176,7 +176,7 @@ scan_data = {
     'last_update': None,
     'scanning': False,
     'scan_settings': {
-        'min_atr_percentage': 0.2,
+        'min_atr_percentage': 0.5,
         'atr_period': 50,
         'atr_multiplier': 0.5,
         'interval': '1m'
@@ -526,7 +526,7 @@ html_template = '''<!DOCTYPE html>
             <div class="settings-grid">
                 <div class="setting-item">
                     <label>Min ATR Percentage (%)</label>
-                    <input type="number" id="min-atr" step="0.1" min="0" value="0.2">
+                    <input type="number" id="min-atr" step="0.1" min="0" value="0.5">
                 </div>
                 <div class="setting-item">
                     <label>ATR Period</label>
